@@ -147,7 +147,7 @@ plt.fill_between(
 
 # ------------------- Figure Formatting ------------------- #
 plt.xlim(0, 200)
-plt.ylim(-2, 2)
+plt.ylim(-1, 1)
 
 plt.xlabel("Sn concentration (ppm)")
 plt.ylabel("δamuSn")
