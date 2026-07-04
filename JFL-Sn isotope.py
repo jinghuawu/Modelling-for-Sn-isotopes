@@ -162,13 +162,13 @@ plt.tight_layout()
 # ------------------- Save as SVG Vector Graphic ------------------- #
 plt.rcParams['svg.fonttype'] = 'none'   # Keep text editable in the SVG
 
-output_path = r"G:\RData\Sn_isotope_plot.svg"
+output_path = r"D:\Data\Sn_isotope_plot.svg"
 plt.savefig(output_path, format="svg")
 
 plt.show()
 
 # ------------------- Export the Top 100 Parameter Sets ------------------- #
-output_dir = r"G:\RData"
+output_dir = r"D:\Data"
 os.makedirs(output_dir, exist_ok=True)
 
 alpha_output_xlsx = os.path.join(output_dir, "top100_alpha.xlsx")
